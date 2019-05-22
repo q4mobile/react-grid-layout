@@ -1,7 +1,7 @@
 {
-  "name": "react-grid-layout",
-  "version": "0.16.6",
-  "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
+  "name": "react-grid-layout-modified",
+  "version": "0.16.7",
+  "description": "A copy of react-grid-layout with some applied PR's which never got merged in",
   "main": "index.js",
   "scripts": {
     "lint": "make lint",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:STRML/react-grid-layout.git"
+    "url": "git@github.com:q4mobile/react-grid-layout.git"
   },
   "keywords": [
     "react",
@@ -31,10 +31,6 @@
   ],
   "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/STRML/react-grid-layout/issues"
-  },
-  "homepage": "https://github.com/STRML/react-grid-layout",
   "dependencies": {
     "classnames": "2.x",
     "lodash.isequal": "^4.0.0",

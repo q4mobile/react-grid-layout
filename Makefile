@@ -39,13 +39,6 @@ build-example:
 view-example: build-example
 	@$(BIN)/opener examples/0-showcase.html
 
-
-# FIXME flow is usually global
-lint:
-	./node_modules/.bin/flow
-	@$(BIN)/eslint --ext .js,.jsx $(LIB) $(TEST)
-	@$(BIN)/valiquire $(LIB)
-
 test:
 	@$(BIN)/jest
 
